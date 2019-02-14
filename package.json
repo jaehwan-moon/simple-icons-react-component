@@ -1,0 +1,21 @@
+{
+  "name": "simple-icons-react-component",
+  "description": "React component for simple icons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": {
+    "name": "Jaehwan Moon",
+    "email": "mkch115@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.1",
+    "simple-icons": "^1.9.19"
+  },
+  "devDependencies": {
+    "enzyme": "^3.8.0",
+    "jest": "^24.1.0",
+    "prettier": "1.16.4"
+  }
+}
