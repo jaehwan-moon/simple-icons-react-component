@@ -9,7 +9,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "npm run clean && babel src -d lib",
+    "clean": "rm -rf lib && mkdir lib"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
