@@ -2,10 +2,28 @@
   "name": "simple-icons-react-component",
   "description": "React component for simple icons",
   "version": "1.0.0",
-  "main": "index.js",
+  "keywords": [
+    "react",
+    "icon",
+    "icons",
+    "simple icons",
+    "brand"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "author": {
     "name": "Jaehwan Moon",
     "email": "mkch115@gmail.com"
+  },
+  "homepage": "https://github.com/cokencode/simple-icons-react-component",
+  "bugs": {
+    "url": "https://github.com/cokencode/simple-icons-react-component/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cokencode/simple-icons-react-component"
   },
   "license": "MIT",
   "scripts": {
@@ -15,8 +33,6 @@
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
     "simple-icons": "^1.9.19"
   },
   "devDependencies": {
@@ -28,6 +44,12 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.9.1",
     "jest": "^24.1.0",
-    "prettier": "1.16.4"
+    "prettier": "1.16.4",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   }
 }
