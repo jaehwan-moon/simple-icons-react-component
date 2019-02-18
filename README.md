@@ -19,11 +19,11 @@ $ yarn add simple-icons-react-component
 import SimpleIcons from 'simple-icons-react-component';
 
 function ReactIcon() {
-  return (
-    <div>
-      <SimpleIcons name="React" />
-    </div>
-  );
+  return <SimpleIcons name="React" />;
+}
+
+function BlackReactIcon() {
+  return <SimpleIcons name="React" color="black" />;
 }
 ```
 
