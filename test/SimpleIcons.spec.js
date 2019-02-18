@@ -2,7 +2,7 @@ import React from 'react';
 import { shallow } from 'enzyme';
 import simpleIcons from 'simple-icons';
 
-import SimpleIcon from '../lib/SimpleIcon';
+import SimpleIcon from '../src/SimpleIcon';
 
 describe('SimpleIcon', () => {
   it('should use default icon color when there is no custom color prop', () => {
